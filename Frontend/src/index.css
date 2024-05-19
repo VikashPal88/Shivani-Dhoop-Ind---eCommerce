@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+
+.infoDiv {
+    @apply flex justify-center flex-col items-center border-r-2 px-6 py-5 w-[25%]
+}
+
+.BB {
+    @apply border-b-2 border-gray-200 py-2 hover:text-orange-500 cursor-pointer px-5
+}
+
+.box {
+    @apply bg-slate-500 h-8 w-8 px-2 py-1 cursor-pointer
+}
+
+.ATCbtn {
+    @apply relative px-8 py-2 rounded-md bg-orange-400 isolation-auto z-10 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-orange-600 before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700
+}
+
+.borderB {
+    @apply py-2 border-b-2 border-gray-200 px-10
+}
+
+.inputBtn {
+    @apply border-[1px] border-zinc-300 py-1 px-2 outline-none mt-2 w-1/2
+}
+
+
+@tailwind utilities;
+
+* {
+    font-family: 'Gilroy';
+}
